@@ -1,0 +1,87 @@
+/* navbar */
+body {
+    background-color: rgb(196, 253, 122);
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: chartreuse;
+}
+.list li a:hover {
+    color: black;
+    background-color: rgb(230, 33, 33);
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 10px;
+}
+/* akhir navbar */
+
+/* jumbotroon */
+.jumbotron {
+    background-image: url('../../assets/img/belajar tajwid/jumbotron.png');
+    box-sizing: border-box;
+    padding-top: 70px;
+    margin-bottom: 20px;
+    color: white;
+    transition: 0.5s;
+}
+@media (max-width: 576px) {
+    .banner {
+        background-image: url('../../assets/img/belajar tajwid/jumbotron.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+}
+
+/* akhir jubotron */
+
+/* konten video */
+.bdr{
+    border: none;
+}
+
+/* akhir konten video */
+
+ /* design footer */
+ .footer {
+    background-color: rgb(77, 52, 52);
+    background-color: #24262b;
+    padding: 3px;
+}
+
+.konten-foot {
+    position: relative;
+    top: 40px;
+}
+
+.about {
+    color: white;
+}
+
+.copy {
+    position: relative;
+    top: 26px;
+    background-color: rgb(38, 49, 42);
+    color: white;
+    padding: 20px;
+}
+
+.logo-footer {
+    position: relative;
+    top: 60px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.footer-list li a:hover {
+    background-color: #ef4444;
+    padding: 10px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+/* akhir footer */

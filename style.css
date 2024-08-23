@@ -1,0 +1,616 @@
+body {
+    background-color: rgb(175, 166, 166);
+}
+
+.logo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    color: chartreuse;
+}
+
+/* design jumbotron */
+@media (max-width: 576px) {
+    .banner {
+        height: 57vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat
+    }
+}
+
+/* akhir jumbotron */
+
+/* design navbar */
+.list li a:hover {
+    color: black;
+    background-color: rgb(230, 33, 33);
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+    .option h5 p {
+        font-size: 28rem;
+        overflow-y: auto;
+    }
+}
+
+@media (max-height: 370px) {
+    .carousel-inner {
+        height: 20rem;
+    }
+}
+
+/* design rating dan ulasan */
+.judul {
+    text-align: center;
+    color: white;
+}
+
+.rating {
+    background-color: cornflowerblue;
+}
+
+.logo-prof {
+    border-radius: 50%;
+    border: 3px solid black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.logo-prof:hover {
+    padding: 4px;
+}
+
+.bntng {
+    margin: 0;
+    padding: 0;
+}
+
+.bintang {
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    left: 5px;
+}
+
+/* akhir design dan ulasan */
+
+/* design pengajar */
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    left: 120px;
+    border-radius: 12px;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front {
+    background-color: #bbb;
+    color: black;
+}
+
+.flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+    box-shadow: 10px 10px 8px rgb(56, 54, 54);
+}
+@media (min-width: 260px){
+    .kartu{
+        position: relative;
+        right: 13rem;
+    }
+}
+@media only screen and (max-width: 828px){
+    .kartu{
+        position: relative;
+        right: 6rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .kartu{
+        position: relative;
+        right: 2rem;
+    }
+}
+@media only screen and (max-width: 700px){
+    .kartu{
+        position: relative;
+        right: 2rem;
+    }
+}  */
+
+.card-container {
+    width: 300px;
+    height: 430px;
+    background: #FFF;
+    border-radius: 6px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 10px 1px #000;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.upper-container {
+    height: 150px;
+    background-image: url("assets/img/home/yauyin.jpg");
+}
+
+.upper-container2 {
+    height: 150px;
+    background-image: url("assets/img/home/hasna.jpg");
+}
+
+.upper-container3 {
+    height: 150px;
+    background-image: url("assets/img/home/fatin1.png");
+}
+
+.image-container {
+    background: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    padding: 5px;
+    transform: translate(100px, 100px);
+}
+
+.image-container img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.lower-container {
+    height: 280px;
+    background: #FFF;
+    padding: 20px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.lower-container h3,
+h4 {
+    box-sizing: border-box;
+    line-height: .6;
+    font-weight: lighter;
+}
+
+.lower-container h4 {
+    color: #7F00FF;
+    opacity: .6;
+    font-weight: bold;
+}
+
+.lower-container p {
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.lower-container .btn {
+    padding: 12px 20px;
+    background: #2060b3;
+    border: none;
+    color: white;
+    border-radius: 30px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all .3s ease-in;
+}
+
+.lower-container .btn:hover {
+    background: transparent;
+    color: #7F00FF;
+    border: 2px solid #7F00FF;
+}
+
+
+
+/* akhir pengajar */
+
+/* design kirim komentar */
+.loader {
+    border-top-color: #ef4444;
+    -webkit-animation: spinner 1.5s linear infinite;
+    animation: spinner 1.5s linear infinite;
+}
+
+@-webkit-keyframes spinner {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.sub-kontak {
+    background-image: linear-gradient(50deg, green, blue);
+    text-align: center;
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.komentar {
+    background-color: #bde91e;
+}
+
+/* akhir kirim komentar */
+
+.card-logo {
+    box-shadow: 10px 10px 8px rgb(56, 54, 54);
+}
+
+/* design motivasi dan quotes */
+.jdl-motiv {
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(50deg, rgb(136, 226, 51), rgb(45, 61, 150));
+    color: white;
+    box-shadow: 8px 8px 5px rgb(46, 43, 43);
+    text-decoration: blink;
+    transition: 0.6s;
+
+}
+
+.motiv .jdl-motiv:hover {
+    padding: 20px;
+    color: black;
+    transition: 0.6s;
+}
+
+.quotes {
+    background-color: rgb(28, 134, 99);
+    padding: 10px;
+    padding-top: 45px;
+}
+
+.glb-motiv {
+    position: relative;
+    bottom: 70px;
+}
+
+/*akhir design motivasi dan quotes */
+
+/* design overview sabil */
+.jdl-overview {
+    text-align: center;
+    padding: 10px;
+    border-radius: 12px;
+    background-image: linear-gradient(50deg, rgb(51, 226, 51), rgb(45, 150, 144));
+    color: white;
+    box-shadow: 8px 8px 5px rgb(46, 43, 43);
+    text-decoration: blink;
+    transition: 0.6s;
+}
+
+.over .jdl-overview:hover {
+    padding: 20px;
+    color: black;
+    transition: 0.6s;
+}
+
+/* responsive */
+@media only screen and (max-width: 768px) {
+    .video {
+        width: 100%;
+        height: 60%;
+    }
+}
+
+/* for dekstop */
+
+.video {
+    width: 100%;
+    height: 80%;
+    border-radius: 12px;
+}
+
+/*akhir design overview sabil */
+
+
+
+
+
+
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* body {
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+}
+.row .footer-col{
+    display: inline-block;
+}
+.footer {
+    background-color: #24262b;
+    padding: 70px 0;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+    display: flex;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+} */
+
+/*responsive*/
+/* @media(max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}  */
+
+
+.footer {
+    background-color: rgb(77, 52, 52);
+    background-color: #24262b;
+    padding: 3px;
+}
+
+.konten-foot {
+    position: relative;
+    top: 40px;
+}
+
+.about {
+    color: white;
+}
+
+.copy {
+    position: relative;
+    top: 26px;
+    background-color: rgb(38, 49, 42);
+    color: white;
+    padding: 20px;
+}
+
+.logo-footer {
+    position: relative;
+    top: 60px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+
+.footer-list li a:hover {
+    background-color: #ef4444;
+    padding: 10px;
+    transition: 0.5s ease;
+    border-radius: 10px;
+}
+
+
+
+/* responsive */
+/* @media only screen and (min-width: 600px) {
+    .tabel {
+        padding: 10px;
+        position: relative;
+        top: 80px;
+    }
+
+    .email {
+        padding-left: 12px;
+    }
+
+    .tabel-sosial {
+        left: 60px;
+        position: relative;
+    }
+
+    .tabel-sosial tr a {
+        transition: 0.5s ease;
+    }
+
+    .sub-tabel-sos:hover {
+        transition: 0.5s ease;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col-1 {
+        width: 8.33%;
+    }
+
+    .col-2 {
+        width: 16.66%;
+    }
+
+    .col-3 {
+        width: 25%;
+    }
+
+    .col-4 {
+        width: 33.33%;
+    }
+
+    .col-5 {
+        width: 41.66%;
+    }
+
+    .col-6 {
+        width: 50%;
+    }
+
+    .col-7 {
+        width: 58.33%;
+    }
+
+    .col-8 {
+        width: 66.66%;
+    }
+
+    .col-9 {
+        width: 75%;
+    }
+
+    .col-10 {
+        width: 83.33%;
+    }
+
+    .col-11 {
+        width: 91.66%;
+    }
+
+    .col-12 {
+        width: 100%;
+    }
+
+    .tabel {
+        position: relative;
+        left: 8.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .tabel-sosial {
+        left: 8rem;
+        position: relative;
+    }
+
+    .logo-footer {
+        top: 7rem;
+        position: relative;
+    }
+} */
+
+
+/* akhir footer */
