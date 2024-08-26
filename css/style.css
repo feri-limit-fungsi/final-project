@@ -1,0 +1,317 @@
+/* menu home */
+
+.tya{
+    background-color: #dc3545 !important;
+    color: white !important;
+    padding: 3px;
+}
+/* hover navbar */
+.nav-link {
+    color: #666777;
+    position: relative;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    background-color: rgb(163, 187, 55);
+    transition: 0.3s ease-in-out;
+    border-radius: 10%;
+
+}
+
+@media (min-width: 991px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 2px;
+        background-color: aqua;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.activ::before {
+        width: 100%;
+        visibility: visible;
+    }
+
+    .nav-link:hover {
+        color: black !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav-link::before {
+        content: "";
+        position: absolute;
+        width: 0;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        height: 5px;
+        background-color: aqua;
+        visibility: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .nav-link:hover::before,
+    .nav-link.activ::before {
+        width: 100%;
+        visibility: visible;
+    }
+
+    .nav-link.active:hover {
+        margin-left: 20%;
+        background-color: rgb(163, 187, 55);
+        transition: 0.6s ease-in-out;
+        border-radius: 5%;
+    }
+
+    .nav-link:hover {
+        color: black !important;
+    }
+}
+
+/* akhir hover navbar */
+
+/* banner */
+.banner {
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../assets/image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.group-banner {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* akhir banner */
+
+/* promo */
+@media (max-width: 768px){
+    .promo-menarik{
+        background-color: #dc3545;
+        color: white;
+        display: inline-block;
+        padding: 10px;
+        position: relative;
+        width: 100% !important;
+    }
+}
+.promo-menarik{
+    background-color: #dc3545;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    width: 50%
+}
+.hovered-card {
+    transition: 0.3s ease-in-out;
+}
+
+.hovered-card:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.tombol-promo {
+    transition: 0.3s ease-in-out;
+}
+
+.tombol-promo:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+    background-color: rgb(219, 117, 117) !important;
+}
+
+/* akhir promo */
+
+/* best seller */
+@media (max-width: 768px){
+    .best-seller{
+        width: 100% !important;
+    }
+}
+.best-seller{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    width: 50%;
+}
+/* akhir best seller */
+
+/* servis/pelayanan */
+.icon-service {
+    height: 90px;
+    width: 90px;
+    border: solid white 2px;
+    border-radius: 50%;
+    color: white;
+}
+
+.service-items {
+    transition: 0.2s ease-in-out;
+}
+
+.service-items:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+/* akhir servis/pelayanan */
+
+/* Best seller */
+.text-color {
+    color: orange;
+}
+
+/* akhir best seller */
+
+/* testimoni */
+.testimoni-items {
+    transition: 0.2s ease-in-out;
+}
+
+.testimoni-items:hover {
+    transition: 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+/* akhir testimoni */
+
+/* kontak */
+.sub-kontak{
+    display: inline-block;
+    padding: 10px;
+    width: 50%;
+}
+/* akhir kontak */
+
+/* footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.footer {
+    background-color: rgb(77, 52, 52);
+    background-color: #24262b;
+    padding: 3px;
+}
+
+.konten-foot {
+    position: relative;
+    top: 40px;
+}
+
+.about {
+    color: white;
+}
+
+.copy {
+    position: relative;
+    top: 26px;
+    background-color: rgb(38, 49, 42);
+    color: white;
+    padding: 20px;
+}
+
+.logo-footer {
+    position: relative;
+    top: 60px;
+}
+
+.footer-list li a {
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.footer-list li a:hover {
+    transform: scale(1.1);
+    background-color: #ef4444;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+/* akhir footer */
+/* akhir menu home */
+
+
+
+
+/* menu produk */
+
+/* banner */
+.banner-produk {
+    height: 57vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.group-banner-produk {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* akhir banner */
+
+/* akhir menu produk */
+
+/* menu promo */
+/* banner */
+.banner-promo {
+    height: 57vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.group-banner-promo {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* akhir banner */
+/* akhir menu promo */
+
+
+/* menu kontak */
+/* banner */
+.banner-kontak {
+    height: 50vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../image/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.group-banner-kontak {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* akhir banner */
+
+/* kontak */
+/* .form-control{
+    height: 36px !important;
+    background: #fff !important;
+    color: rgba(0, 0, 0, 0.8) !important;
+    font-size: 14px !important;
+    border-radius: 2px !important;
+    box-shadow: none !important;
+    border: 1px solid rgba(0, 0, 0, 0.8) !important;
+}
+.contactForm .form-control{
+    border: none !important;
+    border-bottom: 1px solid black !important;
+    padding: 0!important;
+}
+.form-control:focus, .form-control:active{
+    border-color: #dc3545 !important;
+} */
+/* akhir  kontak */
+/* akhir menu kontak */
+
+
